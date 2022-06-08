@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <spring-boot.build-image.imageName>joey/docker-springboot-app</spring-boot.build-image.imageName>
+        <spring-boot.build-image.imageName>joeydekort/joey-apiservice</spring-boot.build-image.imageName>
     </properties>
 
     <dependencies>

@@ -2,7 +2,7 @@ version: "3.9"
 services:
 
   joey_dev_appserver:
-    image: joey/docker-springboot-app
+    image: joeydekort/joey-apiservice:dev
     ports:
       - "8888:8080"
     restart: on-failure
@@ -19,7 +19,7 @@ services:
       - joey_application_volume:/var/lib/joey
 
   joey_prod_appserver:
-    image: joey/docker-springboot-app
+    image: joeydekort/joey-apiservice
     ports:
       - "8080:8080"
     depends_on:
